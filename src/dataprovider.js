@@ -1,7 +1,7 @@
 import { fetchUtils } from "react-admin";
 import { stringify } from "query-string";
 const API = process.env.REACT_APP_API;
-const apiUrl = API || "http://localhost:3001";
+const apiUrl = API || "https://learnzilla-backend.vercel.app";
 const httpClient = fetchUtils.fetchJson;
 
 const provi = {
