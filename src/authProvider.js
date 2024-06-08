@@ -1,6 +1,6 @@
 import { fetchUtils } from "react-admin";
 const API = process.env.REACT_APP_API;
-const apiUrl = API || "http://localhost:3001";
+const apiUrl = API || "https://learnzilla-backend.vercel.app";
 
 const authProvider = {
   login: ({ username, password }) => {
